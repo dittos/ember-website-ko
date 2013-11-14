@@ -4,15 +4,15 @@
     skip_sidebar: true
 
 "Getting Started":
-  - title: "Getting Started"
+  - title: "시작하기"
     url: "getting-started"
-  - title: "Planning The Application"
+  - title: "애플리케이션 기획"
     url: "getting-started/planning-the-application"
-  - title: "Creating a Static Mockup"
+  - title: "목업 만들기"
     url: "getting-started/creating-a-static-mockup"
-  - title: "Obtaining Ember.js and Dependencies"
+  - title: "Ember.js 및 필요한 파일 구하기"
     url: "getting-started/obtaining-emberjs-and-dependencies"
-  - title: "Adding the First Route and Template"
+  - title: "첫 루트와 템플릿 추가"
     url: "getting-started/adding-a-route-and-template"
   - title: "Modeling Data"
     url: "getting-started/modeling-data"

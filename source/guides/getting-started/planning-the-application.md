@@ -1,26 +1,26 @@
-TodoMVC, despite its small size, contains most of the behaviors typical in modern single page applications. Before continuing, take a moment to understand how TodoMVC works from the user's perspective.
+TodoMVC는 규모가 작지만 현대적인 단일 페이지 애플리케이션의 일반적인 동작을 대부분 포함하고 있습니다. 계속하기 전에, 잠시 사용자의 입장에서 TodoMVC가 어떻게 작동하는지 이해하고 넘어가겠습니다.
 
-TodoMVC has the following main features:
+TodoMVC에는 다음과 같은 주요 기능이 있습니다.
 <img src="/guides/getting-started/images/todo-mvc.png" width="680">
 
-  1. It displays a list of todos for a user to see. This list will grow and shrink as the user adds and removes todos.
+  1. 사용자가 볼 수 있도록 할 일 목록을 표시합니다. 할 일을 추가하거나 삭제하면 목록이 늘어나고 줄어듭니다.
 
-  1. It accepts text in an `<input>` for entry of new todos. Hitting the `<enter>` key creates the new item and displays it in the list below.
+  1. `<input>`에 새로운 할 일을 입력받습니다. 엔터 키를 누르면 새 항목이 생기고 목록 아래에 나타납니다.
 
-  1. It provides a checkbox to toggle between complete and incomplete states for each todo. New todos start as incomplete.
+  1. 각 할 일의 완료 상태를 전환할 수 있는 체크박스입니다. 새로운 할 일은 미완료 상태에서 시작합니다.
 
-  1. It displays the number of incomplete todos and keeps this count updated as new todos are added and existing todos are completed.
+  1. 미완료 상태의 할 일 갯수를 표시하며, 새로운 할 일이 추가되거나 기존 할 일이 완료 상태로 바뀌면 이 숫자도 업데이트됩니다.
 
-  1. It provides links for the user to navigate between lists showing all, incomplete, and completed todos.
+  1. 사용자가 전체/미완료/완료 할 일 목록 사이를 전환할 수 있는 링크입니다.
 
-  1. It provides a button to remove all completed todos and informs the user of the number of completed todos. This button will not be visible if there are no completed todos.
+  1. 완료된 할 일을 모두 삭제하는 버튼입니다. 이 버튼은 완료 상태의 할 일이 없으면 보이지 않습니다.
 
-  1. It provides a button to remove a single specific todo. This button displays as a user hovers over a todo and takes the form of a red X.
+  1. 할 일 하나를 삭제할 수 있는 버튼입니다. 할 일에 마우스를 올리면 빨간 X 모양으로 나타납니다.
 
-  1. It provides a checkbox to toggle all existing todos between complete and incomplete states. Further, when all todos are completed this checkbox becomes checked without user interaction.
+  1. 모든 할 일을 완료 또는 미완료 상태로 전환할 수 있는 체크박스입니다. 모든 할 일이 완료 상태가 되면 사용자가 누르지 않아도 체크됩니다.
 
-  1. It allows a user to double click to show a textfield for editing a single todo. Hitting the `<enter>` key or moving focus outside of this textfield will persist the changed text.
+  1. 할 일을 더블 클릭하면 편집할 수 있는 텍스트 필드가 나타납니다. 엔터 키를 누르거나 텍스트 필드 밖으로 포커스가 나가면 바뀐 텍스트가 저장됩니다.
 
-  1. It retains a user's todos between application loads by using the browser's `localstorage` mechanism.
+  1. 할 일 목록과 상태를 브라우저의 Local Storage에 보관하여 다른 페이지에 갔다 돌아와도 유지합니다.
 
-You can interact with a completed version of the application by visiting the [TodoMVC site](http://addyosmani.github.com/todomvc/).
+[TodoMVC 사이트](http://addyosmani.github.com/todomvc/)에서 완성판을 이용해보실 수 있습니다.
